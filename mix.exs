@@ -2,7 +2,7 @@ defmodule ElixirExtensions.MixProject do
   use Mix.Project
 
   @version "0.1.1"
-  @scm_url "https://github.com/suhanlee/elixir_extentions"
+  @scm_url "https://github.com/suhanlee/elixir_extensions"
   @elixir_requirement "~> 1.11"
   @description "A set of convenient extensions for developing services with Elixir/Phoenix"
 
@@ -16,7 +16,7 @@ defmodule ElixirExtensions.MixProject do
       deps: deps(),
       package: package(),
       docs: docs(),
-      name: "elixir_extentions"
+      name: "elixir_extensions"
     ]
   end
 
